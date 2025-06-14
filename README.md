@@ -126,7 +126,7 @@
   * `<custom>`: elemento personalizado (web components).
 
 
-# Propriedades css mais utilizadas:
+# Propriedades css mais utilizadas
 
 ### layout e posicionamento
 
@@ -220,3 +220,113 @@
   * **shape-image-threshold** : opacidade da imagem usada para definir a forma.
   * **shape-border-box**, **shape-padding-box**, **shape-margin-box**, **shape-clip-box** : áreas usadas para calcular a forma.
   * **shape-inside** : forma que o conteúdo dentro deve fluir.
+
+# funções js mais utilizadas
+
+## manipulação do dom
+
+  * `document.getElementById()`: obtém um elemento pelo id.
+  * `document.querySelector()`: obtém o primeiro elemento que combina com um seletor css.
+  * `document.querySelectorAll()`: obtém todos os elementos que combinam com um seletor css.
+  * `element.innerHTML`: obtém ou define o conteúdo html de um elemento.
+  * `element.innerText`: obtém ou define o conteúdo de texto de um elemento.
+  * `element.setAttribute()`: define o valor de um atributo.
+  * `element.getAttribute()`: obtém o valor de um atributo.
+  * `element.classList.add()`: adiciona uma classe a um elemento.
+  * `element.classList.remove()`: remove uma classe de um elemento.
+  * `element.classList.toggle()`: inverte a presença de uma classe.
+  * `element.style`: define estilos css inline.
+  * `element.appendChild()`: adiciona um nó filho ao final da lista de filhos.
+  * `element.removeChild()`: remove um nó filho.
+  * `element.insertBefore()`: insere um nó filho antes de um nó existente.
+  * `element.replaceChild()`: substitui um nó filho.
+
+## eventos
+
+  * `addEventListener()`: adiciona um ouvinte de evento a um elemento.
+  * `removeEventListener()`: remove um ouvinte de evento.
+  * `event.preventDefault()`: impede o comportamento padrão de um evento.
+  * `event.stopPropagation()`: impede a propagação do evento.
+  * `element.onclick`: manipulador de evento para cliques.
+  * `element.onchange`: manipulador de evento para alterações em elementos de formulário.
+  * `element.onsubmit`: manipulador de evento para submissão de formulário.
+  * `element.onmouseover` e `element.onmouseout`: manipuladores de evento para movimento do mouse.
+
+## armazenamento e requisições
+
+  * `localStorage.setItem()`: armazena dados no armazenamento local.
+  * `localStorage.getItem()`: recupera dados do armazenamento local.
+  * `localStorage.removeItem()`: remove dados do armazenamento local.
+  * `sessionStorage.setItem()`: armazena dados na sessão atual.
+  * `sessionStorage.getItem()`: recupera dados da sessão atual.
+  * `sessionStorage.removeItem()`: remove dados da sessão atual.
+  * `fetch()`: realiza requisições http.
+
+## arrays e objetos
+
+  * `array.map()`: cria um novo array aplicando uma função a cada elemento.
+  * `array.filter()`: cria um novo array com elementos que passam em um teste.
+  * `array.reduce()`: reduz um array a um único valor.
+  * `array.forEach()`: executa uma função para cada elemento.
+  * `array.push()`: adiciona elementos ao final do array.
+  * `array.pop()`: remove o último elemento do array.
+  * `array.shift()`: remove o primeiro elemento do array.
+  * `array.unshift()`: adiciona elementos ao início do array.
+  * `array.splice()`: adiciona/remova elementos em um índice específico.
+  * `array.indexOf()`: retorna o índice do primeiro elemento com um valor especificado.
+  * `array.includes()`: verifica se um array contém um determinado valor.
+  * `object.keys()`: retorna um array com as chaves de um objeto.
+  * `object.values()`: retorna um array com os valores de um objeto.
+  * `object.entries()`: retorna um array com os pares chave-valor de um objeto.
+  * `object.hasOwnProperty()`: verifica se um objeto possui uma propriedade própria.
+
+## strings e números
+
+  * `string.split()`: divide uma string em um array de substrings.
+  * `string.replace()`: substitui uma substring por outra.
+  * `string.includes()`: verifica se uma string contém um determinado valor.
+  * `string.trim()`: remove espaços em branco no início e no final de uma string.
+  * `string.toUpperCase()` e `string.toLowerCase()`: converte strings para maiúsculas ou minúsculas.
+  * `number.toFixed()`: formata um número usando notação de ponto fixo.
+  * `number.toLocaleString()`: retorna uma string com a representação localizada do número.
+  * `parseInt()` e `parseFloat()`: converte strings para números inteiros ou de ponto flutuante.
+
+## datas e tempo
+
+  * `new Date()`: cria um objeto data.
+  * `date.getFullYear()`: obtém o ano.
+  * `date.getMonth()`: obtém o mês.
+  * `date.getDate()`: obtém o dia do mês.
+  * `date.getHours()`: obtém as horas.
+  * `date.getMinutes()`: obtém os minutos.
+  * `date.getSeconds()`: obtém os segundos.
+  * `date.getTime()`: obtém o número de milissegundos desde 1/1/1970.
+  * `date.setDate()`: define o dia do mês.
+  * `date.setFullYear()`: define o ano.
+  * `date.setHours()`: define as horas.
+  * `date.setMinutes()`: define os minutos.
+  * `date.setSeconds()`: define os segundos.
+
+## funções e callbacks
+
+  * `function(){}): define uma função.
+  * `arrow function ( () => {} )`: define uma função de seta.
+  * `setTimeout()`: executa uma função após um determinado número de milissegundos.
+  * `setInterval()`: executa uma função periodicamente.
+  * `clearTimeout()`: cancela um timeout definido com setTimeout().
+  * `clearInterval()`: cancela um intervalo definido com setInterval().
+  * `Promise()`: representa uma operação assíncrona.
+  * `then()`: define a função de callback para quando a promessa for resolvida.
+  * `catch()`: define a função de callback para quando a promessa for rejeitada.
+
+## outros
+
+  * `JSON.parse()`: converte uma string json em um objeto javascript.
+  * `JSON.stringify()`: converte um objeto javascript em uma string json.
+  * `Math.random()`: retorna um número pseudoaleatório entre 0 e 1.
+  * `Math.floor()`: arredonda um número para baixo.
+  * `Math.ceil()`: arredonda um número para cima.
+  * `console.log()`: exibe uma mensagem no console.
+  * `try...catch`: captura e trata exceções.
+  * `typeof`: determina o tipo de uma variável.
+  * `instanceof`: verifica se um objeto é uma instância de uma classe.
